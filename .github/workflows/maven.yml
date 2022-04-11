@@ -25,4 +25,4 @@ jobs:
 #    - name: Build with Maven
 #      run: mvn -B package --file pom.xml
     - name: Secret  
-      run: echo { MY_SECRET }
+      run: echo ${{ MY_SECRET }}
